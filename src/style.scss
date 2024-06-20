@@ -1,0 +1,46 @@
+// src/App.scss
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+.filter {
+    margin-bottom: 20px;
+    select {
+        padding: 5px;
+        border: 1px solid $secondary-color;
+        border-radius: 5px;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .rating {
+        color: $secondary-color;
+        font-size: 0.9em;
+    }
+}
